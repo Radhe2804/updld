@@ -1,0 +1,39 @@
+{
+    "name": "𝐓𝐞𝐱𝐭 Uploader 𝐇𝐦𝐆𝐚𝐦𝐞𝐫 ",
+    "description": "Download videos from various websites using this telegram bot",
+    "logo": "https://envs.sh/YIE.avif",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/hackercoder24/updatetxt2vid",
+    "success_url": "https://telegram.me/HmGamerBots",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "13460015",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "bd452af645d2a569f654f70b366ce577",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "7689689379:AAHdBKGoDZ9z6_ZhVNIZ2pcnGRDHYSq31jA",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+    }
